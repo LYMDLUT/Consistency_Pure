@@ -4,5 +4,6 @@
 | linf    |             |  3.22| 20.41| 34.96| 45.31| 47.66| 48.24| 51.46| 49.90| 48.54| 47.75 |
 | l2      |             | 28.42| 53.32| 61.52| 67.68| 66.80| 68.07| 63.67| 65.14| 61.43| 61.82 |
 
-model FID=8.8 ct-lpips 74epoch
+model FID=8.8 ct-lpips checkpoint74
+
 setting:PGD20+EoT10 alpha=1 eps=8 infer_step=1
