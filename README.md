@@ -1,4 +1,4 @@
-# ConsistencyPure: Consistency Models for Adversarial Purification
+# ConsistencyPure: Consistency Models for Realtime Adversarial Purification
 
 
 Our training code for Consistency models on CIFAR10:
