@@ -1,1 +1,1 @@
-# Consistency Pure: Consistency Models for Adversarial Purification
+# ConsistencyPure: Consistency Models for Adversarial Purification
