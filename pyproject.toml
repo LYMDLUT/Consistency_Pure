@@ -1,0 +1,18 @@
+[project]
+name = "consistency-pure"
+version = "0.1.0"
+description = "Consistency models for real-time adversarial purification"
+requires-python = ">=3.9"
+
+[tool.ruff]
+line-length = 88
+target-version = "py39"
+# Third-party NCSN++ code kept close to score_sde_pytorch.
+extend-exclude = ["models"]
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "B", "UP"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]

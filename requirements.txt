@@ -1,0 +1,11 @@
+torch>=2.1
+torchvision>=0.16
+ml_collections
+numpy
+tqdm
+# ViT classifier (--classifier vit) and the ImageNet LCM-LoRA evaluation
+transformers>=4.38
+# ImageNet LCM-LoRA evaluation
+diffusers>=0.27
+peft>=0.10
+timm>=0.9
