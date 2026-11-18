@@ -144,7 +144,6 @@ configs/, models/           NCSN++ (from score_sde_pytorch)
 networks/                   classifier architectures
 scripts/                    experiment sweeps
 results/                    reported results
-docs/                       related paper drafts
 ```
 
 ## Development
